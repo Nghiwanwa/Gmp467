@@ -149,10 +149,13 @@ const routes: Routes = [
     path:"video",
     component:VideoComponent
   },
-  
+  {
+    path:"single-news",
+    component:SingleNewsComponent
+  },
   {
     path: '',
-    redirectTo:'/password-reset',
+    redirectTo:'/single-news',
     pathMatch:'full'
   }
 
