@@ -39,6 +39,9 @@ import { MenuComponent } from './components/menu/menu.component';
 import { Ads1Component } from './ads1/ads1.component';
 import { HomebannerComponent } from './homebanner/homebanner.component';
 import { ResetsuccessfulComponent } from './resetsuccessful/resetsuccessful.component';
+import { RegiterComponent } from './components/regiter/regiter.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -78,11 +81,14 @@ import { ResetsuccessfulComponent } from './resetsuccessful/resetsuccessful.comp
     MenuComponent,
     Ads1Component,
     HomebannerComponent,
-    ResetsuccessfulComponent
+    ResetsuccessfulComponent,
+    RegiterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

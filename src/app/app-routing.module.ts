@@ -154,8 +154,13 @@ const routes: Routes = [
     component:SingleNewsComponent
   },
   {
+    path:"register",
+    component:RegistrationComponent
+  },
+
+  {
     path: '',
-    redirectTo:'/single-news',
+    redirectTo:'/home',
     pathMatch:'full'
   }
 

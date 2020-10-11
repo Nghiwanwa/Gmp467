@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "GMP467"
+    }
+  },
+  "defaultProject": "GMP467",
+  "cli": {
+    "analytics": "b4768218-1b87-45e1-abfa-6dfa36c0d8c7"
+  }
 }
